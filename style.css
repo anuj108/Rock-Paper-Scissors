@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+li{
+    cursor: pointer;
+    list-style-type: none;
+
+}
+.center{
+    border: 2px solid red;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height: 50vh;
+    margin: 20px;
+    font-size:40px;
+    font-family: monospace;
+    font-weight: 900;
+}
+.bottom{
+    font-size: 30px;
+    margin: 20px;
+    
+}
