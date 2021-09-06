@@ -95,6 +95,7 @@ refresh.addEventListener("click", () => {
   change.innerHTML = "";
   change2.innerHTML = "";
   change3.innerHTML = 0;
+  (i = 0), (j = 0), (c = 0);
   change4.innerHTML = 0;
   count.innerHTML = 0;
 });
