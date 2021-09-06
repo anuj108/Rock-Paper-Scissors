@@ -7,12 +7,12 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 40px;
+  padding: 30px;
+  font-family:'Courier New', Courier, monospace;
 }
 ul {
   display: flex;
   justify-content: space-around;
-  padding: 20px;
 }
 li{
     cursor: pointer;
@@ -20,18 +20,56 @@ li{
 
 }
 .center{
-    border: 2px solid red;
+    border: 2px solid black;
     display: flex;
+    flex-direction: column;
     justify-content:center;
     align-items:center;
     height: 50vh;
-    margin: 20px;
+    margin: 40px;
     font-size:40px;
     font-family: monospace;
     font-weight: 900;
+}
+.up{
+  padding: 40px;
+  font-size: 40px;
 }
 .bottom{
     font-size: 30px;
     margin: 20px;
     
+}
+h5{
+  display: flex;
+  justify-content:center
+}
+.top ul li{
+  background-color: grey;
+  color:black;
+  padding: 15px;
+  border-radius: 5px;
+  font-weight: 800;
+  transition: all 1s ease-in-out;
+}
+.top ul li:hover{
+  color: white;
+  background-color: black;
+  transform: scale(1.7);
+  font-weight: 600;
+  font-family: monospace;
+  transition: all 0.6s ease-in-out;
+}
+.center{
+  background-color: grey;
+  border-radius: 15px 100px 30px;
+}
+h6{
+  margin-top:50px;
+  font-size: 20px;
+  font-family: monospace;
+  font-weight: 100;
+}
+.refresh{
+  cursor: pointer;
 }
