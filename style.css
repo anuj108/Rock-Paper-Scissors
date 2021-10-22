@@ -51,7 +51,16 @@ h5{
   display: flex;
   justify-content:center;
   font-family: 'Lato', sans-serif;
-  font-weight: 400;
+  font-weight: 900;
+}
+#upper{
+  background: rgb(37, 24, 44);
+  color: rgb(209, 195, 65);
+  padding: 20px;
+  font-size: large;
+}
+.count{
+  color: aliceblue;
 }
 .top ul li{
   background-color: rgb(163, 202, 153);
@@ -83,6 +92,7 @@ h6{
 .refresh{
   cursor: pointer;
 }
+
 @media screen and (max-width: 570px) {
   body {
     background-color: lightgreen;
