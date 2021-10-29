@@ -6,7 +6,8 @@
 body{
   /* background: url(./assets/farouk-mechedal-iWmfPbKmxEQ-unsplash.jpg)
   no-repeat center center/cover; */
-  background-color: #4EB1BA;
+  background-color: aqua;
+  color: white;
 }
 h1 {
   display: flex;
@@ -46,6 +47,7 @@ li{
     font-size: 30px;
     margin: 20px;
     font-family: 'Lato', sans-serif;
+    color: black;
 }
 h5{
   display: flex;
@@ -55,7 +57,7 @@ h5{
 }
 #upper{
   background: rgb(37, 24, 44);
-  color: rgb(209, 195, 65);
+  color: yellow;
   padding: 20px;
   font-size: large;
 }
@@ -80,7 +82,7 @@ h5{
   transition: all 0.4s ease-in-out;
 }
 .center{
-  background-color: rgb(163, 202, 153);
+  background-color: rgb(0, 0, 0);
   border-radius: 15px;
 }
 h6{
@@ -91,14 +93,15 @@ h6{
 }
 .refresh{
   cursor: pointer;
+  color: rgb(155, 202, 143);
 }
 
 @media screen and (max-width: 570px) {
   body {
-    background-color: lightgreen;
+    background-color: rgb(0, 0, 0);
   }
   .top ul li{
-    background-color: rgb(163, 202, 153);
+    background-color: rgb(155, 202, 143);
     color:#3f1818;
     padding: 10px;
     border-radius: 4px;
@@ -122,5 +125,7 @@ h6{
 }
 .bottom{
   font-size: 20px;
+ 
+  
 }
 }
